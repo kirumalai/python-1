@@ -1,7 +1,9 @@
 l=input()
-if l in ('a','e','i','o','u'):
+A=('a','e','i','o','u')
+B=('b','c','d','e','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','y','z')
+if l in A:
    print("Vowel")
-elif l not in ('a','e','i','o','u'):
+elif l B:
    print("Consonant")
 else:
    print("invalid")
