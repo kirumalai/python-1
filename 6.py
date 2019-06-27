@@ -1,5 +1,5 @@
 n1,n2,n3=input().split()
-if (n2>n3):
+if (n2>n3) and (n2>n1):
     print("n2")
 elif (n1>n2) and (n1>n3):
     print("n1")
